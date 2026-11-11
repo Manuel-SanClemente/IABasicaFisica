@@ -1489,6 +1489,7 @@ MonoBehaviour:
   turret: {fileID: 551968624}
   objective: {fileID: 620903246}
   turretCanon: {fileID: 2073336153}
+  turretTest: {fileID: 1957733147}
 --- !u!1 &2073336152
 GameObject:
   m_ObjectHideFlags: 0
@@ -1516,13 +1517,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073336152}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 5.59, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.5, z: 0}
   m_LocalScale: {x: 1, y: 1.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 551968625}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &2073336154
 CapsuleCollider:
   m_ObjectHideFlags: 0

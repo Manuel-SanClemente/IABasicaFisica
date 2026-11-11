@@ -36,7 +36,7 @@ public class TowerNPC : MonoBehaviour
 
     private void CreateBullet()
     {
-        GameObject shell = Instantiate(bullet, turretCanon.transform.position, bullet.transform.rotation);
+        GameObject shell = Instantiate(bullet, turretCanon.transform.position, turretCanon.transform.rotation);
         shell.GetComponent<Rigidbody>().linearVelocity = bulletSpeed * turretCanon.forward;
     }
 
@@ -46,7 +46,7 @@ public class TowerNPC : MonoBehaviour
 
         if (angle != null)
         {
-            turretCanon.localEulerAngles = new Vector3(-90.0f -(float)angle, 0.0f, 0.0f);
+            turretCanon.localEulerAngles = new Vector3(360.0f -(float)angle, 0.0f, 0.0f);
         }
 
         return angle;
