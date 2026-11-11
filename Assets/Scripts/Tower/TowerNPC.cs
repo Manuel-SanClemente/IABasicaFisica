@@ -8,7 +8,6 @@ public class TowerNPC : MonoBehaviour
     public GameObject turret;
     public GameObject objective;
     public Transform turretCanon;
-    public Transform turretTest;
 
     private float bulletSpeed = 15.0f;
     private float rotSpeed = 5.0f; // velocidade de rotación da unidade cara ao obxectivo
